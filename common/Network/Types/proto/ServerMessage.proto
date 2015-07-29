@@ -1,0 +1,9 @@
+import "DeckSize.proto";
+
+message ServerMessage
+{
+    oneof msg
+    {
+        DeckSize deckSize = 1;
+    }
+}

@@ -1,0 +1,7 @@
+import "Player.proto";
+
+message DeckSize
+{
+    required Player player = 1;
+    required uint32 size = 2;
+}
